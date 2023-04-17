@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Root from "./routes/root"
 import ErrorPage from "./error-page";
+import Music from "./routes/music"
 import './index.css'
 
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "music",
+    element: <Music />,
   },
 ]);
 

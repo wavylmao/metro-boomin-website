@@ -18,7 +18,7 @@ function Navbar() {
             <li className="my-auto flex font-noto-serif">
               <ul className="text-xl flex gap-8">
                 <li>
-                  <a href="">MUSIC</a>
+                  <a href={`music`}>MUSIC</a>
                 </li>
                 <li>
                   <a href="">VIDEOS</a>
